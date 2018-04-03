@@ -16,6 +16,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        applyStyling()
+        
         return true
     }
 
@@ -41,6 +43,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
+    private func applyStyling() {
+        DispatchQueue.main.async {
+//            UIApplication.shared.delegate?.window??.tintColor = UIColor.lightBackground
+            
+//            UINavigationBar.appearance().titleTextAttributes = UIFont.futuraMaxiAttributes(withStyle: .bold, size: 15.0, foregroundColor: .white)
+            UINavigationBar.appearance().tintColor = .white
+            UINavigationBar.appearance().barTintColor = .darkBackground
+        }
+    }
 
 }
 

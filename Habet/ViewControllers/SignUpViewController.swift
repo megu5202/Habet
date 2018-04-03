@@ -14,7 +14,7 @@ class SignUpViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        navigationController?.title = "Sign Up"
+        navigationController?.navigationItem.title = "Sign Up"
     }
     
     @IBAction func signUpTapped(_ sender: UIButton) {

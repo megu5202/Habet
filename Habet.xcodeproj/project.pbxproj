@@ -70,28 +70,20 @@
 		A5C879822074021400EC39AB /* Habet */ = {
 			isa = PBXGroup;
 			children = (
-				A5C879A82074389800EC39AB /* Extensions */,
-				A5C879992074194C00EC39AB /* Launch */,
-				A5C8799C207427B500EC39AB /* ViewControllers */,
-				A5C8799D207427C100EC39AB /* Models */,
 				A5C8798A2074021400EC39AB /* Assets.xcassets */,
 				A5C8798F2074021400EC39AB /* Info.plist */,
+				A5C879832074021400EC39AB /* AppDelegate.swift */,
+				A5C8799C207427B500EC39AB /* ViewControllers */,
+				A5C8799D207427C100EC39AB /* Models */,
+				A5C879A82074389800EC39AB /* Extensions */,
 			);
 			path = Habet;
-			sourceTree = "<group>";
-		};
-		A5C879992074194C00EC39AB /* Launch */ = {
-			isa = PBXGroup;
-			children = (
-				A5C8798C2074021400EC39AB /* LaunchScreen.storyboard */,
-				A5C879832074021400EC39AB /* AppDelegate.swift */,
-			);
-			path = Launch;
 			sourceTree = "<group>";
 		};
 		A5C8799C207427B500EC39AB /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				A5C8798C2074021400EC39AB /* LaunchScreen.storyboard */,
 				A5C879872074021400EC39AB /* PostLaunch.storyboard */,
 				A5C879852074021400EC39AB /* PostLaunchViewController.swift */,
 				A5C879A62074309A00EC39AB /* SignUpViewController.swift */,

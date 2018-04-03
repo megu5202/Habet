@@ -14,7 +14,7 @@ class LogInViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        navigationController?.title = "Log In"
+        navigationController?.navigationItem.title = "Log In"
     }
     
     @IBAction func logInTapped(_ sender: UIButton) {
